@@ -73,7 +73,7 @@ echo "Objective: find the key hidden inside '$ADELE'."
 echo ""
 echo "YOUR FIRST TASK: Figure out how to get into the directory."
 echo "USE COMMANDS: cd , ls, cat, grep, chmod"
-echo << "EOF"
+cat << "EOF"
 The linux-challenge directory has 5 folders and each of the folders have 5 files each.
 
 1. If you cant get inside the directory. What is the command you use to change the permissions? 
