@@ -73,7 +73,14 @@ echo "Objective: find the key hidden inside '$ADELE'."
 echo ""
 echo "YOUR FIRST TASK: Figure out how to get into the directory."
 echo "USE COMMANDS: cd , ls, cat, grep, chmod"
-echo "HINT: you can use man grep and look for recursive"
+echo << "EOF"
+The linux-challenge directory has 5 folders and each of the folders have 5 files each.
+
+1. If you cant get inside the directory. What is the command you use to change the permissions?
+2. You can manually "cat" every file. OR. You can use "grep" command.
+3. Look for a file that have the word "key".
+4. You can use recursive search: use "man <command>" and look for recursive.
+EOF
 echo "--------------------------------------------------------"
 echo "self-destructing."
 sleep 1
