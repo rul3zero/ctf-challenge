@@ -1,0 +1,27 @@
+The Linux Challenge
+
+Go to your terminal and run the commands:
+
+Step 1: git clone https://github.com/rul3zero/ctf-challenge
+Step 2: cd ctf-challenge/
+Step 3: chmod +x linux-challenge.sh
+Step 4: ./linux-challenge.sh 
+
+The key format is: "-*-****-*********-*-****-" (the key has hyphen and it is human readable)
+Note that it starts and ends with a hyphen "-"
+
+
+Instructions:
+
+1. Find the hidden key placed inside one of the text files under the linux-challenge directory. 
+2. You can use: cd, ls, cat, grep and chmod
+3. (Note to nerd scripters) Please don't investigate the script. You will find singers there
+
+HINTS:
+
+The linux-challenge directory has 5 folders and each of the folders have 5 files each.
+
+1. If you cant get inside the directory. What is the command you use to change the permissions?
+2. You can manually "cat" every file. OR. You can use "grep" command.
+2. Look for a file that have the word "key".
+3. You can use recursive search: use "man <command>" and look for recursive.
