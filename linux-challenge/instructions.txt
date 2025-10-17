@@ -4,8 +4,12 @@ Go to your terminal and run the commands:
 
 Step 1: git clone https://github.com/rul3zero/ctf-challenge
 Step 2: cd ctf-challenge/
-Step 3: chmod +x linux-challenge.sh
-Step 4: ./linux-challenge.sh 
+Step 3: cd linux-challenge/
+Step 4: ./challenge.sh
+Step 5: ls -l
+Step 6: chmod +x challenge.sh
+Step 7: ls -l
+Step 8: ./challenge.sh 
 
 The key format is: "-*-****-*********-*-****-" (the key has hyphen and it is human readable)
 Note that it starts and ends with a hyphen "-"
